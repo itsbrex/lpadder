@@ -1,18 +1,11 @@
-# Contributing to lpadder
+# Contributing
 
-lpadder was made using [Vite](https://vitejs.dev), [SolidJS](https://solidjs.com), [TypeScript](https://www.typescriptlang.org), [UnoCSS](https://unocss.dev) and [pnpm](https://pnpm.io/) is the main package manager. Deployment is powered by [Vercel](https://vercel.com) on [@Vexcited](https://github.com/Vexcited)'s account.
+## Manuals
 
-## Commands
-
-- `pnpm dev`: Starts development server on port `3000`.
-- `pnpm build`: Builds the app.
-- `pnpm lint`: Runs `eslint` and `tsc`.
-- `pnpm release`: Bumps the `version` in `package.json`, commits the changes and tag, then creates a GitHub Release.
-  - Note: the published GitHub release will trigger a GitHub Action that will run a Vercel build. On successful deploy, it will update the published GitHub release and append `Deployment URL: <VERCEL_DEPLOY_URL>\n\n` at the top of the release body.
-
-## Explaining the "lpadder project file structure"
-
-Each covers is bundled into a `.zip` file that contains a single `cover.json` file.
-This file contains the project's global configuration and data.
-
-You can see its interface (`ProjectStructure`) in the [`Project.ts`](./src/types/Project.ts) file.
+- [Launchpad Pro MK2](https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/downloads/Launchpad%20Pro%20Programmers%20Reference%20Guide%201.01.pdf)
+- [Launchpad MK2](https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/downloads/Launchpad%20MK2%20Programmers%20Reference%20Manual%20v1.03.pdf)
+- [Launchpad Mini MK3](https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/downloads/Launchpad%20Mini%20-%20Programmers%20Reference%20Manual.pdf)
+- [Launchpad Pro MK3](https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/downloads/LPP3_prog_ref_guide_200415.pdf)
+- [Launchpad X](https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/downloads/Launchpad%20X%20-%20Programmers%20Reference%20Manual.pdf)
+- [Launchpad S](https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/novation/downloads/10753/launchpad-s-prm.pdf)
+- [Launchpad Mini MK1/MK2, Launchpad Classic](https://fael-downloads-prod.focusrite.com/customer/prod/downloads/launchpad-programmers-reference.pdf)

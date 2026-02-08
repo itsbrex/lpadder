@@ -1,14 +1,8 @@
 {
-  // ESLint
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
 
-  // WindiCSS
-  "windicss.enableAttrUtilityCompletion": false,
-  "windicss.enableAttrVariantCompletion": false,
-
-  // Indentation
   "editor.detectIndentation": false,
   "editor.insertSpaces": true,
   "editor.tabSize": 2

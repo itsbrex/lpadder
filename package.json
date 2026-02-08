@@ -1,13 +1,11 @@
 {
   "name": "lpadder",
   "description": "A web application that lets you play Launchpad covers directly from your web browser.",
-  "version": "0.0.8",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "lint": "eslint . && tsc",
-    "build": "vite build",
-    "release": "release-it"
+    "build": "vite build"
   },
   "dependencies": {
     "@fontsource/poppins": "^5.1.0",
@@ -45,25 +43,5 @@
     "workbox-build": "^7.1.1",
     "workbox-window": "^7.1.0"
   },
-  "author": {
-    "name": "Mikkel ALMONTE--RINGAUD",
-    "url": "https://github.com/Vexcited",
-    "email": "vexitofficial@gmail.com"
-  },
-  "license": "MIT",
-  "release-it": {
-    "git": {
-      "commitMessage": "chore: release v${version}",
-      "tagAnnotation": "Release v${version}",
-      "tagName": "v${version}"
-    },
-    "github": {
-      "draft": false,
-      "release": true,
-      "releaseName": "v${version}"
-    },
-    "npm": {
-      "publish": false
-    }
-  }
+  "license": "MIT"
 }
